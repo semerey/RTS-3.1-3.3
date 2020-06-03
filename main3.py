@@ -23,10 +23,10 @@ class MainApp(App):
     l_c = Label(text="* C +")
     l_d = Label(text="* D =")
     ti_a = TextInput(text="1")
-    ti_b = TextInput(text="1")
+    ti_b = TextInput(text="2")
     ti_c = TextInput(text="1")
-    ti_d = TextInput(text="1")
-    ti_y = TextInput(text="8")
+    ti_d = TextInput(text="3")
+    ti_y = TextInput(text="15")
 
     # gauth = GoogleAuth()
     # gauth.LocalWebserverAuth()
@@ -143,9 +143,9 @@ class MainApp(App):
             # print("new dots: {} {}".format(new_dots[0], new_dots[1]))
 
             # print("probs: {} {} {} {}".format(probs[0], probs[1], probs[2], probs[3]))
-            # print("results: {}, {}, {}, {}".format(results[0], results[1], results[2], results[3]))
+            print("results: {}, {}, {}, {}".format(results[0], results[1], results[2], results[3]))
             k += 1
-            # print(" >>>>>>>> k: {}", k)
+            print(" >>>>>>>> k: {}", k)
             # print("------------------------------------------------------------")
             # done = True
         
